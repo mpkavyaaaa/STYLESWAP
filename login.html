@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Login Form</title>
+    <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                margin: 0px;
+                padding: 0px; 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                background-image: url(https://cdn1.booqable.com/marketing-assets/landing-pages/clothing-hero-aeb471cb1aaeba32ff8624272d2fcc971a6adf843482e447b28165ccd747f8dca05d1242e5d214433fd0c87ffdbd97d469d88a8a32fa1541d404a6de3f6d930b.webp);
+                background-size:cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                color: #000000;
+            }
+        
+        /* Login Container */
+        .login-container {
+            background: rgba(192, 113, 113, 0.8);
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-container h1 {
+            font-size: 26px;
+            margin-bottom: 20px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: white;
+        }
+
+        .login-container .lock-icon {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        /* Form Styles */
+        .login-container form {
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            position: relative;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            background: #ff4c4c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            background: #e03e3e;
+        }
+
+        .forgot-password {
+            color: #ffffffb3;
+            font-size: 12px;
+            margin-top: 10px;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        /* Social Login Section */
+        .social-login {
+            margin-top: 20px;
+        }
+
+        .social-login p {
+            font-size: 14px;
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .social-login button {
+            border: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+        }
+
+        .facebook {
+            background: #3b5998;
+        }
+
+        .twitter {
+            background: #1da1f2;
+        }
+
+        .linkedin {
+            background: #0077b5;
+        }
+
+        .social-login button:hover {
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <div style="
+    position: absolute; 
+    top: 30%; 
+    left: 05%;
+    margin:0px;
+    padding:0px;
+    width: 1500px;
+    height:100px;
+    transform: translateY(-45%);
+    color: rgb(255, 255, 255);
+">  
+    <div class="login-container">
+        <h1>Fashion Login Form</h1>
+        <div class="lock-icon">🔒</div>
+        <form>
+            <div class="form-group">
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password" required>
+            </div>
+            <button type="submit" class="login-btn">Login</button>
+            <a href="#" class="forgot-password">Forgot password?</a>
+        </form>
+        <div class="social-login">
+            <p>or login with</p>
+            <button class="facebook">Facebook</button>
+            <button class="twitter">Twitter</button>
+            <button class="linkedin">LinkedIn</button>
+        </div>
+        <div class="footer">
+            &copy; 2024 Fashion Login Form. All rights reserved | Design by You
+        </div>
+    </div>
+</body>
+</html>
